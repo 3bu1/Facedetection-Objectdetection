@@ -39,7 +39,7 @@ You should see now (py3.6) just before ur machine name in terminal.
 <div style="font-size:14px;">Now Lets Jump in to the usage of IP camera modules.</div>
 <h4>liveStreaming/main.py</h4>
 <p>Lets see folder liveStreaming, This folder helps in streaming a video over IP camera, just in case if u want to use web camera.</p>
-<p>In this folder run main.py, <b>python3 main.py</b>This should stream VideoCamera over your local ip, check localhost:5000/video_feed</p>
+<p>In this folder run main.py, <b>python3 main.py</b>. This should stream VideoCamera over your local ip, check localhost:5000/video_feed</p>
 
 <h4>app.py</h4>
 <p>Here we give our camera ip address to check with our AI if the pattern is matached or not.Run app.py with python3 app.py, dont forget to change the cfg and weight files in the program, If u trained your own dataset then need to add new weights to bin folder and respective cfg file in cfg folder.</p>
