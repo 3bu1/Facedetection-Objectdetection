@@ -17,7 +17,7 @@ Create conda virtual env for the project</br>
 Access new environment</br>
 <b>source activate py3.6</b>
 
-Install dependencies (no prob if they are already installed, conda will just skip them)
+Install dependencies (no prob if they are already installed, conda will just skip them)</br>
 <b>conda install tensorflow cython numpy</b>
 
 Add the repo with the magic opencv version</br>
