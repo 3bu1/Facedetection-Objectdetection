@@ -15,10 +15,10 @@ Installation:</br>
 For installing i would be using conda package manager as it can create a customised environment for our project with different versioned python packages. Just to avoid package version conflict, which i faced a lot.
 
 Create conda virtual env for the project</br>
-<b>conda create -n py3.6 python=3.6</b>
+<b>conda create -n py3.5 python=3.5</b>
 
 Access new environment</br>
-<b>source activate py3.6</b>
+<b>source activate py3.5</b>
 
 Install dependencies (no prob if they are already installed, conda will just skip them)</br>
 <b>conda install tensorflow cython numpy</b>
@@ -34,7 +34,7 @@ With a clean cloned repo run the setup (this was a problem, my previous attempts
 
 Download both CFG and and WEIGHTS files of the model you’ll use and place them in their respective folders (create the bin/ folder for weights). If they don’t match you’ll get errors.
 Everything should work now!!!
-You should see now (py3.6) just before ur machine name in terminal.
+You should see now (py3.5) just before ur machine name in terminal.
 
 <div style="font-size:14px;">Now Lets Jump in to the usage of IP camera modules.</div>
 <h4>liveStreaming/main.py</h4>
