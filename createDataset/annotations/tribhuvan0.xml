@@ -1,0 +1,22 @@
+<annotation>
+  <folder>images</folder>
+  <filename>tribhuvan0.jpg</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>3456</width>
+    <height>4608</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>tribhuvan</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>879</xmin>
+      <ymin>297</ymin>
+      <xmax>3439</xmax>
+      <ymax>3976</ymax>
+    </bndbox>
+  </object>
+</annotation>
