@@ -1,5 +1,5 @@
 # Facedetection-Objectdetection
-Object detection using an IP camera. This project can take a video url (http://xxxxxxx.com)  as input and can predict the object/face/pattern. 
+Object detection using an IP camera. This project can take a video url (http://xxxxxxx.com)  as input and can predict the object/face/pattern.
 
 
 It is  a fork of darkflow project on github. So now I cloned:
@@ -7,7 +7,7 @@ It is  a fork of darkflow project on github. So now I cloned:
 <a href="https://github.com/thtrieu/darkflow">https://github.com/thtrieu/darkflow</a>
 
 Installation:</br>
-Clone <a href="https://github.com/thtrieu/darkflow">https://github.com/thtrieu/darkflow</a>
+<b>Clone</b> <a href="https://github.com/thtrieu/darkflow">https://github.com/thtrieu/darkflow</a>
 
 For installing i would be using conda package manager as it can create a customised environment for our project with different versioned python packages. Just to avoid package version conflict, which i faced a lot.
 
@@ -31,7 +31,9 @@ With a clean cloned repo run the setup (this was a problem, my previous attempts
 
 Download both CFG and and WEIGHTS files of the model you’ll use and place them in their respective folders (create the bin/ folder for weights). If they don’t match you’ll get errors.
 Everything should work now!!!
+You should see now (py3.6) just before ur machine name in terminal.
 
+<div style="font-size:14px;">Now Lets Jump in to the usage of IP camera modules.</div>
 
-
-
+<p>Lets see folder liveStreaming, This folder helps in streaming a video over IP camera, just in case if u want to use web camera.</p>
+<p>In this folder run main.py, <b>python3 main.py</b>This should stream VideoCamera over your local ip, check localhost:5000/video_feed</p>
