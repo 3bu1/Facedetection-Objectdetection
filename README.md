@@ -5,12 +5,10 @@ Object detection using an IP camera. This project can take a video url (http://x
 Python3, tensorflow , numpy, opencv 3, darkflow
 
 
-It is  a fork of darkflow project on github,Read more about YOLO (in darknet/darkflow) and download weight files <a href="https://pjreddie.com/darknet/yolo/">here</a>. So now I cloned:
-
-<a href="https://github.com/thtrieu/darkflow">https://github.com/thtrieu/darkflow</a>
+It is  a fork of darkflow project on github,Read more about YOLO (in darknet/darkflow) and download weight files <a href="https://pjreddie.com/darknet/yolo/">here</a>. 
 
 Installation:</br>
-<b>Clone</b> <a href="https://github.com/thtrieu/darkflow">https://github.com/thtrieu/darkflow</a>
+<b>Clone</b> <a href="https://github.com/3bu1/Facedetection-Objectdetection">https://github.com/3bu1/Facedetection-Objectdetection</a>
 
 For installing i would be using conda package manager as it can create a customised environment for our project with different versioned python packages. Just to avoid package version conflict, which i faced a lot.
 
