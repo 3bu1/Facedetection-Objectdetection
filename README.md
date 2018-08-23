@@ -42,10 +42,13 @@ You should see now (py3.5) just before ur machine name in terminal.
 
 ### Generate Annotaions for custom dataset
 
-Change dataset names to our labels
+Change dataset image names to our labels
+
 ```python3 generateDataSet/renameFile.py```
 
-In order to train our models we will be generating annotion files for our collected dataset.To run
+
+In order to train our models we will be generating annotations files for our collected dataset.To run
+
 ```python3 generateDataSet/drawbox.py ```
 
 
@@ -66,3 +69,8 @@ Run app.py with
 ```python3 app.py```
 
 Dont forget to change the cfg and weight files in the program, If u trained your own dataset then need to add new weights to bin folder and respective cfg file in cfg folder.
+
+
+### Sample Detection
+
+![alt text](https://raw.githubusercontent.com/3bu1/Facedetection-Objectdetection/master/sampleResult.png)
