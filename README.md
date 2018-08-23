@@ -7,6 +7,9 @@ Python3, tensorflow 1.4 , numpy, opencv 3, darkflow
 
 It is  a fork of darkflow project on github,Read more about YOLO (in darknet/darkflow) and download weight files <a href="https://pjreddie.com/darknet/yolo/">here</a>. 
 
+For more information on Trainning custom models, cfg modification etc, u can get it from https://github.com/3bu1/darkflow/blob/master/README.md
+
+
 ### Installation:
 
 Clone <a href="https://github.com/3bu1/Facedetection-Objectdetection">https://github.com/3bu1/Facedetection-Objectdetection</a>
@@ -37,14 +40,29 @@ Download both CFG and and WEIGHTS files of the model you’ll use and place them
 Everything should work now!!!
 You should see now (py3.5) just before ur machine name in terminal.
 
+### Generate Annotaions for custom dataset
+
+Change dataset names to our labels
+```python3 generateDataSet/renameFile.py```
+
+In order to train our models we will be generating annotion files for our collected dataset.To run
+```python3 generateDataSet/drawbox.py ```
+
+
+
 ### Now Lets Jump in to the usage of IP camera modules.
-####liveStreaming/main.py
+
+#### main.py
 Lets see folder liveStreaming, This folder helps in streaming a video over IP camera, just in case if u want to use web camera 
-```python3 main.py```
+
+```python3 liveStreaming/main.py```
+
 This should stream VideoCamera over your local ip, check localhost:5000/video_feed
 
 #### app.py
 Here we give our camera ip address to check with our AI if the pattern is matached or not.
 Run app.py with 
+
 ```python3 app.py```
+
 Dont forget to change the cfg and weight files in the program, If u trained your own dataset then need to add new weights to bin folder and respective cfg file in cfg folder.
